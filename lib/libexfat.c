@@ -221,6 +221,7 @@ void exfat_init_user_input(struct exfat_user_input *ui)
 void exfat_deinit_user_input(struct exfat_user_input *ui)
 {
 	/* nothing, yet */
+	(void)ui;
 }
 
 void exfat_init_blk_dev_info(struct exfat_blk_dev *bd)
